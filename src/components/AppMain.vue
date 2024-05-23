@@ -1,5 +1,11 @@
 <script>
+import BlackLine from './BlackLine.vue';
+import BlueLine from './BlueLine.vue';
 export default {
+  components: {
+BlackLine,
+BlueLine,
+  },
   data() {
     return {
 
@@ -15,7 +21,8 @@ export default {
 </script>
 
 <template>
- 
+  <BlackLine/>
+  <BlueLine/>
 </template>
 
 <style scoped>
