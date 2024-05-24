@@ -21,7 +21,7 @@ export default {
         <img src="/public/img/buy-comics-merchandise.png" alt="">
         <span>DC MERCHANDISE</span>
         <img src="/public/img/buy-comics-subscriptions.png" alt="">
-        <SPAN>SUBSCRIPTION</SPAN>
+        <span>SUBSCRIPTION</span>
         <img src="/public/img/buy-comics-shop-locator.png" alt="">
         <span>COMIC SHOP LOCATOR</span>
         <img src="/public/img/buy-dc-power-visa.svg" class="visa">
@@ -30,14 +30,18 @@ export default {
 </template>
 
 <style scoped>
-.blue
-{
-    background:rgb(2, 130, 249);
+.blue {
+    background: rgb(2, 130, 249);
+    padding-left: 15rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
-img{
-width: 5rem;
+
+img {
+    width: 4rem;
 }
-span{
+
+span {
     margin-right: 1rem;
 }
 </style>

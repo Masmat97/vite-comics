@@ -68,14 +68,17 @@ header{
   background-color: white;
   display: flex;
   flex-direction: row;
+  
 }
 img{
-  margin-left: 2rem;
-  margin-right: 5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
   width: 5rem;
 }
 a{
   text-decoration: none;
     margin: 1rem 1rem;
+    font-size: 12px;
+    font-weight: bold;
 }
 </style>

@@ -1,5 +1,9 @@
 <script>
+import BlueLine from './BlueLine.vue';
 export default {
+  components: {
+    BlueLine,
+  },
   data() {
     return {
 
@@ -15,6 +19,7 @@ export default {
 </script>
 
 <template>
+  <BlueLine/>
 </template>
 
 <style scoped>

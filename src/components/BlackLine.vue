@@ -6,20 +6,21 @@ export default {
     }
   },
   methods: {
-    
+
   },
   mounted() {
-    
+
   }
 }
 </script>
 
 <template>
-    <h3> --> Content goes here <--</h3>
+  <img src="/public/img/jumbotron.jpg" alt="">
 </template>
 
 <style scoped>
-h3{
-    margin: 2rem 0;
+img {
+  width: 100%;
+  height: 25rem;
 }
 </style>

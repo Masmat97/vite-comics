@@ -1,10 +1,12 @@
 <script>
 import BlackLine from './BlackLine.vue';
-import BlueLine from './BlueLine.vue';
+import AppCard from './AppCard.vue';
+
 export default {
   components: {
-BlackLine,
-BlueLine,
+    BlackLine,
+    AppCard,
+
   },
   data() {
     return {
@@ -12,19 +14,17 @@ BlueLine,
     }
   },
   methods: {
-    
+
   },
   mounted() {
-    
+
   }
 }
 </script>
 
 <template>
-  <BlackLine/>
-  <BlueLine/>
+  <BlackLine />
+  <AppCard />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
